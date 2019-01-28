@@ -12,6 +12,8 @@
                 </OnPlatform>
             </ToolbarItem.Icon>
         </ToolbarItem>
+        <ToolbarItem Name="LogOut" Order="Primary" Text="Profile" Icon="profile.png" Priority="0" Clicked="Profile_Clicked"/>
+        <ToolbarItem Name="LogOut" Order="Primary" Text="Log Out" Icon="logout.jpg" Priority="0" Clicked="LogOut_Clicked"/>
     </ContentPage.ToolbarItems>
 
     <StackLayout>

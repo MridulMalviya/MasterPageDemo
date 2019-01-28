@@ -4,13 +4,17 @@
              x:Class="MasterPageDemo.Views.MenuPage"
              Title="Menu">
     <StackLayout VerticalOptions="FillAndExpand">
-        <ListView x:Name="ListViewMenu"
-                    HasUnevenRows="True">
+        <ListView x:Name="ListViewMenu" HasUnevenRows="True" BackgroundColor="MintCream">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid Padding="10">
-                            <Label Text="{Binding Title}" FontSize="20"/>
+                        <Grid Padding="10" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label  Grid.Column="0" Text="{Binding Title}" FontSize="20"/>
+                            <Image  Grid.Column="1" Source="{Binding Icon}" HeightRequest="20" WidthRequest="30"/>
                         </Grid>
                     </ViewCell>
                 </DataTemplate>

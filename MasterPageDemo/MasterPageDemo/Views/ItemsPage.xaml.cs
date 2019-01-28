@@ -42,6 +42,17 @@ namespace MasterPageDemo.Views
             await Navigation.PushModalAsync(new NavigationPage(new NewItemPage()));
         }
 
+
+        async void LogOut_Clicked(object sender, EventArgs e)
+        {
+            await DisplayAlert("LOGOUT","Do you want to logout?","OK");
+        }
+
+        async void Profile_Clicked(object sender, EventArgs e)
+        {
+            await DisplayAlert("Profile Page", "Coming Soon...", "OK");
+        }
+
         protected override void OnAppearing()
         {
             base.OnAppearing();
