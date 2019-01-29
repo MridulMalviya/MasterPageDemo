@@ -5,7 +5,14 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterPageDemo.Android", "MasterPageDemo\MasterPageDemo.Android\MasterPageDemo.Android.csproj", "{24CE3C36-16B9-426D-AA0C-5961ECF8D88C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterPageDemo", "MasterPageDemo\MasterPageDemo\MasterPageDemo.csproj", "{BC239810-2E30-4A51-AAC1-26FABDBF98DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasterPageDemo", "MasterPageDemo\MasterPageDemo\MasterPageDemo.csproj", "{BC239810-2E30-4A51-AAC1-26FABDBF98DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screenshots", "Screenshots", "{83123C53-7670-4B2A-938A-3B16FC25A9F5}"
+	ProjectSection(SolutionItems) = preProject
+		D:\ScreenShot\dashboard.png = D:\ScreenShot\dashboard.png
+		D:\ScreenShot\logout.png = D:\ScreenShot\logout.png
+		D:\ScreenShot\menu.png = D:\ScreenShot\menu.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
